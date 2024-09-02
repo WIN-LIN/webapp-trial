@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "ethers": "^6.13.2",
     "imaccount-sdk": "github:consenlabs/imaccount-sdk#main",
     "next": "14.2.7",
     "react": "^18",

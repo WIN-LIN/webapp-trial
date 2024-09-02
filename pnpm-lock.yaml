@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      ethers:
+        specifier: ^6.13.2
+        version: 6.13.2
       imaccount-sdk:
         specifier: github:consenlabs/imaccount-sdk#main
         version: git+https://git@github.com:consenlabs/imaccount-sdk.git#f8065da5917cc0b099b0a942f2a801b525518c5b(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@20.16.3)(babel-jest@29.7.0(@babel/core@7.25.2))
