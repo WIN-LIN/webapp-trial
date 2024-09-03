@@ -18,7 +18,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "imaccount-sdk": ["./node_modules/imaccount-sdk"],
+      "~packages/*": ["./node_modules/imaccount-sdk/packages/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
