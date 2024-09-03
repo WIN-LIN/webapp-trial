@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "es2020", // at least es2020 to support BigInt
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
