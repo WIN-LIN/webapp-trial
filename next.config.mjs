@@ -13,7 +13,7 @@ const nextConfig = {
         __dirname,
         "node_modules/imaccount-sdk/packages"
       ),
-      // "~": path.resolve(__dirname, "node_modules/imaccount-sdk"),
+      "~typing": path.resolve(__dirname, "node_modules/imaccount-sdk/typing"),
     };
     config.module.rules.push({
       test: /\.(ts)x?$/,
