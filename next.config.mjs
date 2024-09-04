@@ -29,6 +29,16 @@ const nextConfig = {
         },
       ],
     });
+
+    // Treat node-fetch as CommonJS
+    config.module.rules.push({
+      test: /node_modules\/node-fetch\/.*\.js/,
+      type: "javascript/auto",
+    });
+
+    // Force node-fetch to use CommonJS version
+    config.resolve.alias["node-fetch"] = "node-fetch/lib/index.js";
+
     return config;
   },
 };
